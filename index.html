@@ -1,67 +1,17 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mantenimiento</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background: #f4f9f5;
-            text-align: center;
-        }
-        .message {
-            margin-bottom: 20px;
-        }
-        h1 {
-            font-size: 2rem;
-            color: #333;
-        }
-        p {
-            font-size: 1.2rem;
-            color: #666;
-        }
-        .image-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            position: relative;
-        }
-        .blur-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: inherit;
-            filter: blur(10px);
-            z-index: 1;
-            pointer-events: none;
-        }
-        img {
-            width: 50%;
-            height: auto;
-            z-index: 2;
-            position: relative;
-        }
-    </style>
+    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover' />
+    <meta charset='utf-8'>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <style></style>
+    <title>HASHMAP</title>
+    <script src="playcanvas-stable.min.js"></script>
+    <script src="__settings__.js"></script>
 </head>
 <body>
-    <div class="message">
-        <h1>Estamos ajustando algunas cosas para ti, vuelve más tarde</h1>
-        <p>Gracias por tu paciencia.</p>
-    </div>
-    <div class="image-container">
-        <div class="blur-overlay"></div>
-        <img src="mantenimiento.png" alt="Personaje animado dando mantenimiento">
-    </div>
+    <script src="__start__.js"></script>
+    <script src="__loading__.js"></script>
 </body>
 </html>
